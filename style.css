@@ -1,0 +1,47 @@
+body {background-color:#dfd1b5;}
+p{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(153, 117, 0);
+    text-align: center;
+    line-height: 1.5;
+    text-decoration: none;
+    letter-spacing: 0.5;
+}
+
+header {background-color: #dfd1b5;}
+header li {list-style: none;
+    text-align: center;
+     font-size: 25px;}
+h1 {text-align: center;}
+h3 {text-align: center;}
+h2 {text-align: center;
+    border-bottom: 2px solid #966949;
+}
+
+main{background-color: #fdf2dc;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+footer {text-align: center;
+        padding: 30px;
+        Color: #966949}
+
+.lista-cafes {background-color: #dfd1b5;
+              border-left: 5px solid #966949;}
+
+.produto {  background-color: #dfd1b5;
+            border: 1px solid #966949;
+             list-style: none;}
+
+input {border: 1px solid #dfd1b5}
+
+textarea {border-radius: 4px;}
+
+.form-grid {display: grid;
+           grid-template-columns:1fr 1fr;
+            gap: 20px;}
