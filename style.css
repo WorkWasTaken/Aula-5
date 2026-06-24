@@ -10,6 +10,14 @@ p{
     letter-spacing: 0.5;
 }
 
+header ul {
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
 header {background-color: #dfd1b5;}
 header li {list-style: none;
     text-align: center;
